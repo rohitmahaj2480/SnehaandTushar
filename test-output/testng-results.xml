@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Login Successfully Completed]]>
+    </line>
+    <line>
+      <![CDATA[Login fileds are Verified Successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="113549" started-at="2022-07-17T17:28:13 IST" finished-at="2022-07-17T17:30:06 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="113549" started-at="2022-07-17T17:28:13 IST" finished-at="2022-07-17T17:30:06 IST">
+      <class name="org.Pom_TestCases.DashBoardTestCases">
+        <test-method status="PASS" signature="doLogin()[pri:0, instance:org.Pom_TestCases.DashBoardTestCases@704d6e83]" name="doLogin" is-config="true" duration-ms="12463" started-at="2022-07-17T17:28:13 IST" finished-at="2022-07-17T17:28:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="verifyDashBoard()[pri:0, instance:org.Pom_TestCases.DashBoardTestCases@704d6e83]" name="verifyDashBoard" duration-ms="4748" started-at="2022-07-17T17:28:25 IST" finished-at="2022-07-17T17:28:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashBoard -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.Pom_TestCases.DashBoardTestCases@704d6e83]" name="tearDown" is-config="true" duration-ms="925" started-at="2022-07-17T17:28:30 IST" finished-at="2022-07-17T17:28:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.Pom_TestCases.DashBoardTestCases -->
+      <class name="org.Pom_TestCases.LoginTestCases">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:org.Pom_TestCases.LoginTestCases@103f852]" name="beforeSuite" is-config="true" duration-ms="15" started-at="2022-07-17T17:28:13 IST" finished-at="2022-07-17T17:28:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.Pom_TestCases.LoginTestCases@103f852]" name="beforeMethod" is-config="true" duration-ms="10929" started-at="2022-07-17T17:28:31 IST" finished-at="2022-07-17T17:28:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateLogin()[pri:0, instance:org.Pom_TestCases.LoginTestCases@103f852]" name="validateLogin" duration-ms="73376" started-at="2022-07-17T17:28:42 IST" finished-at="2022-07-17T17:29:55 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successfully Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.Pom_TestCases.LoginTestCases@103f852]" name="afterMethod" is-config="true" duration-ms="886" started-at="2022-07-17T17:29:55 IST" finished-at="2022-07-17T17:29:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.Pom_TestCases.LoginTestCases@103f852]" name="beforeMethod" is-config="true" duration-ms="9094" started-at="2022-07-17T17:29:56 IST" finished-at="2022-07-17T17:30:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLoginFields()[pri:0, instance:org.Pom_TestCases.LoginTestCases@103f852]" name="verifyLoginFields" duration-ms="223" started-at="2022-07-17T17:30:05 IST" finished-at="2022-07-17T17:30:06 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login fileds are Verified Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFields -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.Pom_TestCases.LoginTestCases@103f852]" name="afterMethod" is-config="true" duration-ms="827" started-at="2022-07-17T17:30:06 IST" finished-at="2022-07-17T17:30:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:org.Pom_TestCases.LoginTestCases@103f852]" name="afterSuite" is-config="true" duration-ms="0" started-at="2022-07-17T17:30:06 IST" finished-at="2022-07-17T17:30:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- org.Pom_TestCases.LoginTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
